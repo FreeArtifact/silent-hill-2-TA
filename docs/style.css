@@ -1,0 +1,42 @@
+
+nav {
+    background-color: gray;
+    width: fit-content;
+}
+
+body {
+    /* background-color: black; */
+    background-image: url(images/image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-stuff {
+    display: flex;
+    flex-direction: column;
+    margin: 0 22vw 0 22vw;
+    background-color: maroon;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    height: 100vh;
+}
+
+
+
+/* Sources Page */
+.src_sources {
+
+    & a {
+        transition: .25s;
+    }
+    & a:hover {
+        text-shadow: 0 0 10px white;
+        transition: .5s;
+    }
+    & a:visited {
+        text-decoration: none;
+        color: black;
+    }
+}
