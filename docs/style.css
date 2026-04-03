@@ -1,7 +1,24 @@
 
 nav {
-    background-color: gray;
+    display: flex;
+    padding: 6px 14px;
+    background-color: black;
     width: fit-content;
+    gap: 1.5rem;
+    font-size: 1.25rem;
+
+    & a {
+        text-decoration: none;
+        transition: .25s;
+    }
+    & a:hover {
+        text-shadow: 0 0 10px white;
+        transition: .5s;
+    }
+    & a:visited {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 body {
@@ -17,7 +34,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 22vw 0 22vw;
-    background-color: maroon;
+    background-color: rgb(93, 1, 1);
     padding: 10px 50px 10px 50px;
     color: white;
     height: 100vh;
