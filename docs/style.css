@@ -4,20 +4,26 @@ nav {
     padding: 6px 14px;
     background-color: black;
     width: fit-content;
+    border-radius: 20px / 40px;
     gap: 1.5rem;
     font-size: 1.25rem;
 
     & a {
         text-decoration: none;
         transition: .25s;
+        color: white;
+    }
+    & a:visited {
+        text-decoration: none;
+        color: white;
     }
     & a:hover {
         text-shadow: 0 0 10px white;
         transition: .5s;
     }
-    & a:visited {
-        text-decoration: none;
-        color: white;
+    & a:active {
+        color: rgb(93, 1, 1);
+        transition: none;
     }
 }
 
