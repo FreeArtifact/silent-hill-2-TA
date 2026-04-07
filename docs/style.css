@@ -39,7 +39,7 @@ body {
 .page-stuff {
     display: flex;
     flex-direction: column;
-    margin: 0 22vw 0 22vw;
+    margin: 5vh 22vw 0 22vw;
     background-color: rgb(93, 1, 1);
     padding: 10px 50px 10px 50px;
     color: white;
