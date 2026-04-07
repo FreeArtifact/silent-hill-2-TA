@@ -1,11 +1,11 @@
-import bs4
+from bs4 import BeautifulSoup
 import requests
 import os
 archive_url='https://www.silenthillmemories.net/sh2/script_en.htm'
 def get_linkContents():
     r = requests.get(archive_url)
     print(f"{r=}")
-    soup = bs4.BeautifulSoup(r.content, 'html.parser')
+    soup = BeautifulSoup(r.content, 'html.parser')
 
 
     linkText = []
@@ -18,7 +18,7 @@ def get_linkContents():
     return
 def download_toFile(linkText):
 
-    file_name = "outputLinkText.txt"
+    file_name = "game-dialogue.txt"
     print("Downloading file: " + file_name)
     working_dir = os.getcwd()
     file_deposit = os.path.join(working_dir, file_name)
