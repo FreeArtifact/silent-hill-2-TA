@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import os
-archive_url=''
+archive_url='https://imsdb.com/scripts/Shining,-The.html'
 def get_linkContents():
     r = requests.get(archive_url)
     print(f"{r=}")
@@ -9,7 +9,7 @@ def get_linkContents():
 
 
     linkText = []
-    for item in soup.findAll(['a', 'td', 'h1', 'h2', 'h3']):
+    for item in soup.findAll(['pre', 'b']):
         print(f"{item.text}")
 
         linkText.append(item.text)
@@ -18,7 +18,7 @@ def get_linkContents():
     return
 def download_toFile(linkText):
 
-    file_name = "game-dialogue.txt"
+    file_name = "shinning-dialogue.txt"
     print("Downloading file: " + file_name)
     working_dir = os.getcwd()
     file_deposit = os.path.join(working_dir, file_name)
