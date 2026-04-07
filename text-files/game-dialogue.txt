@@ -1,3 +1,62 @@
+
+Information
+Plot
+Versions
+Enhanced Edition
+Promos
+Merchandise
+Credits
+FAQ
+Playing the Game
+Characters
+Enemies
+Bosses
+Weapons
+Supplies
+Walkthrough
+Speed Walkthrough
+Puzzles
+Mini-Puzzles
+Endings
+Unlockables & Secrets
+10-Star Ranking Guide
+Item List
+Save Point Locations
+Memos
+Game Script
+Maps
+Trivia
+Cool & Scary Things
+Plot Analysis
+Save Games
+Modding
+Information
+Script
+Biographies
+Credits
+Menus
+Art Gallery
+Screenshots
+Wallpapers
+Concept Art
+Screensavers
+Videos
+Articles
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 Game Script
 Contents
 1.1 - The Observation Deck
@@ -1356,3 +1415,7 @@ Maria: This should take me to the alley that runs to the park. But first I'd bet
 
 6 - Misc
 by Niai Mitch (Born From A Wish Game Script)
+Home
+About
+Links
+Contact
