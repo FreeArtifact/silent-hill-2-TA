@@ -1,4 +1,48 @@
 
+/* Landing Page */
+.landing-body {
+    height: 85vh;
+    display: flex;
+}
+
+.landing-nav {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+    & h1 {
+        margin-bottom: 0;
+    }
+
+    & h2 {
+        margin-top: 0;
+    }
+}
+
+
+
+/* ============================ */
+/* HTML Elements */
+body {
+    background-color: black;
+    /* background-image: url(images/image.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+}
+/* ============================ */
 nav {
     display: flex;
     padding: 6px 14px;
@@ -27,20 +71,13 @@ nav {
     }
 }
 
-body {
-    /* background-color: black; */
-    background-image: url(images/image.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 
 .page-stuff {
     display: flex;
     flex-direction: column;
     margin: 5vh 22vw 0 22vw;
-    background-color: rgb(93, 1, 1);
+    background-color: rgb(13, 0, 0);
     padding: 10px 50px 10px 50px;
     color: white;
     height: 140vh;
@@ -53,6 +90,7 @@ body {
 
     & a {
         transition: .25s;
+        color: white;
     }
     & a:hover {
         text-shadow: 0 0 10px white;
@@ -60,6 +98,6 @@ body {
     }
     & a:visited {
         text-decoration: none;
-        color: black;
+        color: white;
     }
 }
