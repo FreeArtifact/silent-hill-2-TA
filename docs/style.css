@@ -46,10 +46,12 @@ nav {
 }
 
 .return-link {
-    position: absolute;
-    right: 5px;
-    bottom: 2px;
-    margin: 0;
+    width: 128%;
+    position: sticky;
+    align-self: flex-start;
+    text-align: right;
+    bottom: 0;
+    /* margin: 0 4px; */
     padding: 0;
     opacity: 50%;
     color: black;
