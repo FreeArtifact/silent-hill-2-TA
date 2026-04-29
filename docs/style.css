@@ -1,5 +1,6 @@
 /* ====Universal Elements==== */
 body {
+    position: relative;
     margin: 0;
     height: 100%;
     width: 100%;
@@ -88,8 +89,10 @@ nav {
 .ah {
     position: absolute;
     text-align: center;
-    right: 54%;
-    bottom: 115px;
+    margin-right: 32%;
+    left: 0;
+    right: 0;
+    bottom: 18%;
     opacity: 60%;
 }
 
