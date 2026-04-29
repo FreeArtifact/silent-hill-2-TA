@@ -221,4 +221,10 @@ nav {
         text-decoration: none;
         color: white;
     }
+    
 }
+iframe.cyto {
+    width:90%; 
+    height: 100vh;
+    }
+              
