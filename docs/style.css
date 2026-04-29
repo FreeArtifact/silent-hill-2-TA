@@ -208,7 +208,11 @@ nav {
 
 /* ====Sources Page==== */
 .src_sources {
+    width: 70%;
 
+    & li {
+        margin: 5px 0;
+    }
     & a {
         transition: .25s;
         color: white;
@@ -223,6 +227,7 @@ nav {
     }
     
 }
+
 iframe.cyto {
     width:90%; 
     height: 100vh;
