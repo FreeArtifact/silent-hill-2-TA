@@ -119,7 +119,7 @@ nav {
     bottom: 2px;
     margin: 0;
     padding: 0;
-    opacity: 50%;
+    opacity: 70%;
 }
 
 .basic-nav {
@@ -195,9 +195,20 @@ nav {
 
 /* ====Research Page==== */
 .res_about {
-    img {
-        height: 30%;
-        width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.cyto_graph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    & img {
+    width: 800px;
     }
 }
 
