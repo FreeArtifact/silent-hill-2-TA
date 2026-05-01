@@ -225,16 +225,18 @@ figcaption {
     transform: scaleX(-1);
 }
 
-.james_design{
-display: flex;
-   justify-content: center;
-  align-items: center;
+.img_design img {
+    box-sizing: border-box;
+    width: 22%;
+}
 
-    
+.james_design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .research{
     text-align: center;
-    font-size: 25px
 }
 
 
