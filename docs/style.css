@@ -46,6 +46,10 @@ nav {
     }
 }
 
+figcaption {
+    color: white;
+}
+
 .return-link {
     width: 128%;
     position: sticky;
@@ -248,7 +252,23 @@ nav {
 
 
 /* ====Methods Page==== */
+.meth_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+}
 
+.meth_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.gist {
+    width: 800px;
+}
 /* ============================ */
 
 
