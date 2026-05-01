@@ -194,12 +194,40 @@ nav {
 
 
 /* ====Research Page==== */
+.res_head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+}
+
 .res_about {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+}
 
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 50px;
+
+    & figure {
+        display: inline-block;
+        text-align: center;
+
+        & img {
+            width: 220px;
+            vertical-align: top;
+        }
+
+        & figcaption {
+            text-align: center;
+            margin-top: 5px;
+        }
+    }
 }
 
 .cyto_graph {
