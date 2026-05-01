@@ -191,9 +191,35 @@ figcaption {
 
 /* ====Home Page==== */
 /* ============================ */
+section{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+p{
+    font-size: 18px
+}
 
+h1{
+    text-align: center;
+    font-size: 25px
+}
+.img_design img:hover{
+    transform: scaleX(-1);
+}
 
+.james_design{
+display: flex;
+   justify-content: center;
+  align-items: center;
 
+    
+}
+.research{
+    text-align: center;
+    font-size: 25px
+}
 
 
 
