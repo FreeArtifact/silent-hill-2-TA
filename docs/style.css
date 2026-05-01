@@ -51,7 +51,7 @@ figcaption {
 }
 
 .return-link {
-    width: 128%;
+    width: 122%;
     position: sticky;
     align-self: flex-start;
     text-align: right;
@@ -191,17 +191,17 @@ figcaption {
 
 /* ====Home Page==== */
 /* ============================ */
-section{
+.home_content section{
     color: white;
     text-shadow: 2px 2px 4px #000000;
     padding-left: 30px;
     padding-right: 30px;
 }
-p{
+.home_about p{
     font-size: 18px
 }
 
-h1{
+.home_about h1{
     text-align: center;
     font-size: 25px
 }
