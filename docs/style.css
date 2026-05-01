@@ -1,5 +1,6 @@
 /* ====Universal Elements==== */
 body {
+    position: relative;
     margin: 0;
     height: 100%;
     width: 100%;
@@ -53,7 +54,7 @@ nav {
     bottom: 0;
     /* margin: 0 4px; */
     padding: 0;
-    opacity: 50%;
+    opacity: 80%;
     color: black;
     font-size: 0.8rem;
 
@@ -88,8 +89,10 @@ nav {
 .ah {
     position: absolute;
     text-align: center;
-    right: 54%;
-    bottom: 115px;
+    margin-right: 32%;
+    left: 0;
+    right: 0;
+    bottom: 18%;
     opacity: 60%;
 }
 
@@ -116,7 +119,7 @@ nav {
     bottom: 2px;
     margin: 0;
     padding: 0;
-    opacity: 50%;
+    opacity: 70%;
 }
 
 .basic-nav {
@@ -183,7 +186,6 @@ nav {
 
 
 /* ====Home Page==== */
-
 /* ============================ */
 section{
     color: white;
@@ -218,6 +220,23 @@ display: flex;
 
 
 /* ====Research Page==== */
+.res_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.cyto_graph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & img {
+    width: 800px;
+    }
+}
 
 /* ============================ */
 
