@@ -13,7 +13,7 @@
       <div class="basic-content research-body">
         <section class="res_head">
             <h1>Research and Results:</h1>
-            <h4>By Ella G. and Jack N.</h4>
+            <h4 style="margin: 0; margin-bottom: 20px;">By Ella G. and Jack N.</h4>
             <div>
               <h3>Project Description:</h3>
               <p>This is a website dedicated to exploring how other forms of media and art have influenced the style, design, story, and general themes of Silent Hill 2
@@ -27,8 +27,7 @@
             </div>
         </section>
         <section class="res_about">
-          <h2>Research</h2>
-          <h3>Films that Inspired Silent Hill 2</h3>
+          <h2>Chosen Inspiration from Silent Hill 2:</h2>
           <div class="movie-list">
             
             <figure>
@@ -51,14 +50,29 @@
               <figcaption>Mulholland Drive by David Lynch</figcaption>
             </figure>
           </div>
+
+          <h2 style="border-bottom: 6px solid grey;">A Visualization of Adjectives</h2>
+          
+          <h3 style="border-left: 0; border-bottom: 4px solid grey; padding: 0;">Why Adjectives?</h3>
+          <p class="p-box">Silent Hill 2 thrives on its destitute environments, mysterious fog, and grotesque creatures. We hoped that 
+            through the description of such environments that we might glean some interesting connections while also painting a kind of "analytical portrait". 
+            By examining outlying clusters in the graph below, it is not just a web you're looking at. The clustered connections become their own descriptors.
+            </p>
+
+          <h2>Adjective Network:</h2>
             <div class="cyto_graph">
-              <p>Put link here for interactive network</p>
-              <h3>Network overview:</h3>
               <figure>
-                <img class="network" src="images/adj-core.png" alt="Network of adjective connections in Silent Hill 2"/>
+                <iframe class="cyto" src="web_session/index.html" frameborder="0"></iframe>
                 <figcaption>A network of adjectives from each source</figcaption>
               </figure>
-              <h3>Adjectives</h3>
+
+              <p class="p-box">Take note of which clusters lie between which sources: how unique are the featured words? Are there any connections that come as a surprise?</p>
+            </div>
+
+              
+              
+              <h2>Adjective Count</h2>
+              <div class="cyto_graph">
                 <figure>
                   <img src="images/adj-ALL.svg" alt="histogram of adjectives">
                   <figcaption>A total count of adjectives from each source (unadjusted)</figcaption>
@@ -69,18 +83,21 @@
                   <figcaption>Adjusted for word count</figcaption>
                 </figure>
 
-                <figure>
-                  <img src="" alt="">
-                </figure>
+                <p class="p-box">The first visual, as described, is an objective visualization of the adjective count in each file; 
+                  however, it's not exactly a good representation of how descriptive each text is. All it proves is that a longer movie will have more words (duh).
+                   Only until after we divided each count by their total could we get an accurate comparison of how often each inspiration used adjectives. As you can see, although "Game Memos"
+                   is grossly lacking in the first graph, the second graph shows us that--for the length of the work--it has an unusually large amount of adjectives (likely because it's environmental text).
+                </p>
             </div>
+            <!-- <h2>Room for Improvement:</h2> -->
         </section>
-        <div class="return-link"><a href="index.html">Back to Landing Page</a></div>
       </div>
       <nav class="basic-nav">
         <a href="home.html">Home</a>
-        <a href="research.html">Research</a>
+        <a id="current-page" href="research.html">Research</a>
         <a href="methods.html">Methods</a>
         <a href="sources.html">Sources</a>
+        <a href="index.html">Landing</a>
       </nav>
       
     </body>
