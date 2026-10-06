@@ -2,30 +2,57 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     
     <head>
-        <title>SH2: Home</title>
+        <title>Silent Hill 2 Text Analysis</title>
         <meta charset="UTF-8" />
         <meta name="author" content="My Name" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="home.js"></script>
     </head>
+
     <body>
-        <!-- might do three.js setup -->
-      
+    <div class="checkbox_fieldset">
+    <fieldset>
+      <legend>Click to Highlight:</legend>
+      <input type="checkbox" id="CHARtoggle"/>
+      <span>Persons</span>
+      <input type="checkbox" id="PLtoggle"/>
+      <span>Places</span>
+      <input type="checkbox" id="MOtoggle"/>
+      <span>Monsters</span>
+    </fieldset>
+    </div>
       <div class="basic-content home-body">
         <section class="home_content">
           
           <section class="home_about">
             <h1>What is Silent Hill 2?</h1>
             <h2>About Silent Hill 2:</h2>
-            <p>Silent Hill 2 is a psychological horror survival game, and you play as the main character James Sunderland who travels around the foggy town of Silent Hill looking for his wife, Mary.</p>
+            <p>Silent Hill 2 is a psychological horror survival game, and you play as the main character <span class="persons">James Sunderland</span> who travels around the foggy town of <span class="places">Silent Hill</span> looking for his wife, <span class="persons">Mary.</span></p>
           </section>
           <section class="jamesmary_design">
-            <img src="images/james_sunderland%20(1).png" width="250" height="300" ></img>
-            <p>This is James Sunderland the main protagonist of the game and the character you play as</p>
-            <img src="images/mary_shepherd_sunderland.png" width="250" height="300"></img>
-            <p>This is Mary Shepherd-Sunderland the inciting movtivation for James journey through Silent Hill</p></section>
+            <svg height="300" width="450">
+              <image href="images/james_sunderland (1).png" height="250" width="300" >
+                <animateMotion
+                path="M0,0 q60,100 100,0 q60,-20 100,0"
+                begin="0s"
+                dur="15s"
+                repeatCount="indefinite" />
+              </image>
+            </svg>
+            <p>This is <span class="persons">James Sunderland</span> the main protagonist of the game and the character you play as</p>
+            <svg height="300" width="450">
+              <image href="images/mary_shepherd_sunderland.png" height="250" width="300" >
+                <animateMotion
+                path="M0,0 q60,100 100,0 q60,-20 100,0"
+                begin="0s"
+                dur="15s"
+                repeatCount="indefinite" />
+              </image>
+            </svg>
+            <p>This is <span class="persons">Mary Shepherd-Sunderland</span> the inciting movtivation for James journey through Silent Hill</p></section>
             <section class="game_play"><h2>Game play:</h2>
-            <p>During the game you will encounter various monsters that you must defeat in order to progress through the game:</p>
+            <p>During the game you will encounter various <span class="monsters">monsters</span> that you must defeat in order to progress through the game:</p>
             <div class="img_design">
               <img src="images/lying_figure.png" height="350" width="550"></img>
               
@@ -41,13 +68,13 @@
           
         </section>
         
+      <div class="return-link"><a href="index.html">Back to Landing Page</a></div>
       </div>
       <nav class="basic-nav">
-        <a id="current-page" href="home.html">Home</a>
+        <a href="home.html">Home</a>
         <a href="research.html">Research</a>
         <a href="methods.html">Methods</a>
-        <a href="sources.html">Credits</a>
-        <a href="index.html">Landing</a>
+        <a href="sources.html">Sources</a>
       </nav>
     </body>
 </html>

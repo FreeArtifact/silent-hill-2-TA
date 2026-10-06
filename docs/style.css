@@ -14,26 +14,6 @@ body {
     background-attachment: fixed;
 }
 
-h1 {
-    font-size: 2.5rem;
-}
-
-
-
-h2 {
-    align-self: flex-start;
-    font-size: 1.5rem;
-    border-left: 6px solid grey;
-    padding-left: 10px;
-    margin-left: 30px;
-    margin-top: 40px;
-}
-
-h3 {
-    border-left: 6px solid grey;
-    padding-left: 10px;
-}
-
 p {
     font-size: 1.1rem;
 }
@@ -52,6 +32,7 @@ nav {
     & a {
         text-decoration: none;
         transition: .25s;
+        color: white;
         text-shadow: 0 0 8px white;
         margin-right: 1rem;
     }
@@ -74,25 +55,37 @@ figcaption {
     font-size: 1;
 }
 
-a#current-page {
-    text-decoration: none;
-    transition: .25s;
+.return-link {
+    width: 122%;
+    position: sticky;
+    align-self: flex-start;
+    text-align: right;
+    bottom: 0;
+    /* margin: 0 4px; */
+    padding: 0;
+    opacity: 80%;
     color: black;
-    text-shadow: 0 0 8px white;
-    
-    &:visited {
+    font-size: 0.8rem;
+
+    & a {
+        text-decoration: none;
+        transition: .25s;
+        color: black;
+        text-shadow: 0 0 8px white;
+    }
+    & a:visited {
         text-decoration: none;
         color: black;
     }
-
-    &:hover {
+    & a:hover {
         text-shadow: 0 0 10px rgb(137, 9, 9);
         transition: .5s;
     }
-    &:active {
+    & a:active {
         color: rgb(93, 1, 1);
         transition: none;
-    }}
+    }
+}
 /* ============================ */
 
 
@@ -141,29 +134,21 @@ a#current-page {
 
 .basic-nav {
 
-    & a {
-        color: white;
-    }
-
-    & a:visited {
-        color: white;
-    }
-
     & a:nth-child(1){
-        margin-right: 8px;
+        margin-right: 12.5px;
     }
 
     & a:nth-child(2){
-        margin-right: 12px;
-    }
-
-    & a:nth-child(3){
         margin-right: 20px;
     }
 
-    & a:nth-child(4){margin-right: 12px;}
+    & a:nth-child(3){
+        margin-right: 19.5px;
+    }
 
-    & a:nth-child(5) {margin-right: 8px};
+    & a:nth-child(4){
+        margin-right: 9px;
+    }
 }
 
 .landing-nav {
@@ -203,9 +188,6 @@ a#current-page {
     color: white;
     margin: 0 40px;
     background-color: rgb(67, 4, 4);
-
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
 }
 /* ============================ */
 
@@ -243,7 +225,7 @@ a#current-page {
         font-size: 30px;
         text-align: left;
         border-left: 6px solid grey;
-        margin-left: 0;
+        
         
 }
 .about_project h2 {
@@ -253,7 +235,6 @@ a#current-page {
         font-size: 30px;
         text-align: left;
         border-left: 6px solid grey;
-        margin-left: 0;
 }
 .about_project p {
         width: 75%;
@@ -268,7 +249,6 @@ a#current-page {
         width: 50%;
         margin-top: 40px;
         padding-left: 10px;
-        margin-left: 0;
         font-size: 30px;
         text-align: left;
         border-left: 6px solid grey;
@@ -299,13 +279,27 @@ a#current-page {
     
 }
 .jamesmary_design p{
-    display:flex;
-    flex-direction: column;
+    
     align-items: center;
     gap: 20px;   
     font-size: 20px
 }
 
+.checkbox_fieldset {
+   position: relative;
+   left: 1150px;
+   top: 20px;
+   color: white 
+}
+span.places.on {
+    color:#3333CC
+}
+span.persons.on {
+    color:#FF3300
+}
+span.monsters.on {
+    color:#477519
+}
 
 
 
@@ -322,7 +316,6 @@ a#current-page {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    /* padding: 0 50px; */
 }
 
 .movie-list {
@@ -343,16 +336,8 @@ a#current-page {
         & figcaption {
             text-align: center;
             margin-top: 5px;
-            font-size: .8rem;
         }
     }
-}
-
-.p-box {
-    width: 80%;
-    border-left: 3px solid white;
-    padding-left: 8px;
-    text-indent: 10px;
 }
 
 .cyto_graph {
@@ -360,9 +345,8 @@ a#current-page {
     flex-direction: column;
     align-items: center;
 
-    & iframe.cyto {
-    width: 700px;
-    height: 100vh;
+    & img.network {
+    width: 800px;
     }
 
     & img {
@@ -422,5 +406,8 @@ a#current-page {
     
 }
 
-
+iframe.cyto {
+    width:90%; 
+    height: 100vh;
+    }
               
