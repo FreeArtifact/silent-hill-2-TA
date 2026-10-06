@@ -186,7 +186,7 @@ figcaption {
     height: auto;
     width: 100%;
     color: white;
-    margin: 0 40px;
+    margin: 0 20px;
     background-color: rgb(67, 4, 4);
 }
 /* ============================ */
@@ -287,7 +287,7 @@ figcaption {
 
 .checkbox_fieldset {
    position: relative;
-   left: 1000px;
+   left: 66vw;
    top: 20px;
    color: white 
 }
